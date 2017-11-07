@@ -1,0 +1,22 @@
+.container{
+	background: url("img/fondo.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.jumbotron{
+	padding: 0;
+	margin-left: 0;
+}
+
+.imagen{
+    vertical-align: middle;
+	width: 25%;
+	border-radius:50% ;
+	margin-left: 50px;
+}
+
+.col-md-4 {
+    width: 20%;
+    vertical-align: middle;
+}

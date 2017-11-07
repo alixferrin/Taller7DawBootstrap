@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sweet and Coffee website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sweet and Coffee website">
+    <meta name="author" content="Alix">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="jumbotron.css" rel="stylesheet"> 
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css' />   
+    <link href="estilo.css" rel = "stylesheet" >
+ </head>
+<body>
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Sweet & Coffee</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Nosotros</a></li>
+            <li><a href="#about">Cafe</a></li>
+            <li><a href="#contact">Dulces</a></li>
+            <li><a href="#contact">Productos</a></li>
+            <li><a href="#contact">Compromiso</a></li>
+            <li><a href="#contact">Universidad del cafe</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->    
+    </nav>
+
+     <div class="jumbotron">
+      <div class="container">
+        <h1>Sweet and Coffee</h1>
+      </div>
+    </div>   
+
+    <div class="content">
+      <div class="rm_wrapper">
+        <div id="rm_container" class="rm_container">
+          <ul>
+            <li data-images="rm_container_1" data-rotation="-15"><img src="img/productos/americano.jpg"/></li>
+            <li data-images="rm_container_2" data-rotation="-5"><img src="img/productos/cafebombon.jpg"/></li>
+            <li data-images="rm_container_3" data-rotation="5"><img src="img/productos/cafelattecaliente.jpg"/></li>
+            <li data-images="rm_container_4" data-rotation="15"><img src="img/productos/cafelattefrio.jpg"/></li>
+          </ul>
+          <div id="rm_mask_left" class="rm_mask_left"></div>
+          <div id="rm_mask_right" class="rm_mask_right"></div>
+          <div id="rm_corner_left" class="rm_corner_left"></div>
+          <div id="rm_corner_right" class="rm_corner_right"></div>
+          <div style="display:none;">
+            <div id="rm_container_1">
+              <img src="img/productos/americano.jpg"/>
+              <img src="img/productos/capuccino.jpg"/>
+              <img src="img/productos/frappelatte.jpg"/>
+            </div>
+            <div id="rm_container_2">
+              <img src="img/productos/cafebombon.jpg"/>
+              <img src="img/productos/capuccinocasa.jpg"/>
+              <img src="img/productos/macchiato.jpg"/>
+            </div>
+            <div id="rm_container_3">
+              <img src="img/productos/cafelattecaliente.jpg"/>
+              <img src="img/productos/capuccinofrio.jpg"/>
+              <img src="img/productos/moccachino.jpg"/>
+            </div>
+            <div id="rm_container_4">
+              <img src="img/productos/cafelattefrio.jpg"/>
+              <img src="img/productos/espresso.jpg"/>
+              <img src="img/productos/oreocookieshake.jpg"/>
+            </div>
+          </div>
+        </div>
+        <div class="rm_nav">
+          <a id="rm_next" href="#" class="rm_next"></a>
+          <a id="rm_prev" href="#" class="rm_prev"></a>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.transform-0.9.3.min_.js"></script>
+    <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="js/jquery.RotateImageMenu.js"></script>    
+    
+
+    <div class="container-1">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <img class = "imagen" src = "img/productos/espresso.jpg">          
+          <h2>Espresso</h2>
+          <p>El café expreso (también llamado café exprés, express, espresso o solo) es una forma de preparación de café originada en Italia.​ Debe su término a la obtención de esta bebida a través de una cafetera expreso.​ Se caracteriza por su rápida preparación y por un sabor y textura más concentrados. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <img class = "imagen" src = "img/productos/oreocookieshake.jpg">                   
+          <h2>Oreo cookie shake</h2>
+          <p>Los milkshakes (batidos) en principio son una combinación de helado y leche. En EEUU son muy comunes en los diners de 24 horas y las heladerías. A mí siempre me han encantado, aunque intento no tomármelos mucho– solo de vez en cuando! Mi milkshake preferido tiene que ser lo de galletas Oreo. Es muy dulce y super cremoso. En cualquier heladería te costaría $5 mínimo, asi que vale la pena hacer tu propio milkshake de Oreo en casa!</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <img class = "imagen" src = "img/productos/capuccino.jpg">                   
+          <h2>Capuccino</h2>
+          <p>El capuchino (del italiano cappuccino) es una bebida nacida en Italia, preparada con café expreso y leche montada con vapor para crear la espuma, que en ocasiones lleva también cacao o canela en polvo. Un capuchino se compone de 125 ml de leche y 25 ml de café expreso.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <img class = "imagen" src = "img/productos/moccachino.jpg">                   
+          <h2>Mocacccino</h2>
+          <p>El mocaccino es una variante del capuccino que resulta muy consumida por los amantes del café. ... En esa agua, ya caliente, vamos a introducir el cacao y por supuesto, el café. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <img class = "imagen" src = "img/productos/macchiato.jpg">                   
+          <h2>Macchiato</h2>
+          <p>Macchiato ([makˈkjaːto]) significa en italiano 'manchado', y en el caso de caffè macchiato alude a la leche. Tradicionalmente se elaboraba con un tiro de leche normalmente caliente, siendo la «mancha» del cafe añadido. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>                        
+      </div>
+
+      <hr>
+
+</body>
+</html>
